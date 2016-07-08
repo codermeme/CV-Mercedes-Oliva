@@ -1,0 +1,338 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700)
+@import url(normalize.css);
+
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+	margin: 0;
+	color: #605659;
+}
+ul, ol{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+figure{
+	margin: 0;
+}
+
+.container{
+	max-width: 1200px;
+	margin: auto;
+}
+.foto-contacto{
+	width: 30%;
+	float: left;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.info-contacto{
+	width: 48%;
+	padding-top: 120px;
+	font-size: 14px;
+	font-weight: lighter;
+	line-height: 25px;
+	float: left;
+}
+h1 {
+	margin: 0px;
+	padding-bottom: 5px;
+	font-size: 40px;
+	font-weight: lighter;
+	color: #D94255
+}
+.ocupacion{
+	margin: 0px;
+	font-size: 20px;
+	font-weight: lighter;
+}
+.cleaner{
+	clear: both;
+}
+.main-gris{
+	background-color: #F5F5F5;
+	margin: 0;
+	padding-bottom: 35px;
+}
+.main-blanco{
+	background-color: #ffffff;
+	margin: 0;
+	padding-bottom: 35px;
+}
+.titulo-section{
+	margin: 0;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	font-weight: lighter;
+}
+.titulo-section-exp{
+	margin: 0;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	font-weight: lighter;
+}
+.habilidades-soft{
+	width: 16.6%;
+	padding-top: 15px;
+	text-align: center;
+	float: left;
+}
+.habilidades-soft figure{
+	height: 80px;
+}
+.habilidades-soft h5{
+	margin: 0px;
+	padding-top: 4px;
+}
+.habilidades-soft p{
+	margin: 0px;
+	padding-top: 5px;
+}
+.experiencia-laboral p span{
+	font-weight: bold;
+	color: #D94255
+}
+.container-experiencia{
+	padding-bottom: 20px;
+}
+.experiencia-1{
+	float: left;
+	width: 33.3%;
+}
+.experiencia-2{
+	float: left;
+	width: 33.3%;
+}
+.experiencia-3{
+	float: left;
+	width: 33.3%;
+}
+.experiencia-4{
+	float: left;
+	width: 33.3%;
+}
+.experiencia-5{
+	float: left;
+	width: 33.3%;
+}
+.experiencia-6{
+	float: left;
+	width: 33.3%;
+}
+.experiencia-7{
+	float: left;
+	width: 33.3%;
+}
+.experiencia-8{
+	float: left;
+	width: 33.3%;
+}
+.estudios p span{
+	font-weight: bold;
+	color: #D94255
+}
+.estudios-left{
+	float: left;
+	width: 33.3%;
+}
+.estudios-middle{
+	float: left;
+	width: 33.3%;
+}
+.otros-intereses{
+	float: left;
+	width: 33.3%;
+	font-weight: lighter;
+}
+.main-form{
+	width: 60%;
+	margin: auto;
+}
+.form-left{
+	float: left;
+	width: 48.5%;
+}
+.form-left input{
+	display: block;
+	height: 50px;
+	width: 100%;
+	border: 1px solid #EBF0EC;
+	font-family: inherit;
+	font-size: 14px;
+	border-radius: 5px;
+	box-shadow: inset 0px 1px 2px 0px #C3C3C3;
+	padding-left: 10px;
+	padding-top: 10px;
+	margin-bottom: 15px;
+}
+.form-right{
+	float: left;
+	width: 48.5%;
+	margin-left: 20px;
+}
+.form-right textarea{
+	height: 115px;
+	width: 100%;
+	border: 1px solid #EBF0EC;
+	font-family: inherit;
+	font-size: 14px;
+	border-radius: 5px;
+	box-shadow: inset 0px 1px 2px 0px #C3C3C3;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.button-form {
+	display: block;
+	margin: auto;
+	width: 150px;
+	height: 50px;
+	border-style: none;
+	box-shadow: 0px 1px 2px 0px rgba(34,40,52,0.70), inset 0px 1px 0px 0px rgba(255,255,255,0.15);
+	background: #D94255;
+	border-radius: 4px;
+	color: white;
+	font-size: 14px;
+	font-weight: lighter;
+	margin-bottom: 40px;
+}
+.container-footer{
+	background-color: #2e2e2e;
+	margin: auto;
+}
+.main-footer{
+	width: 30px;
+	margin: auto;
+}
+.redes{
+	text-align: center;
+	height: 100px;
+	padding-top: 40px;
+}
+.red-icon{
+	float: none;
+	display: inline-block;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.fa-facebook-square{
+	font-size: 30px !important;
+	color: #D94255;
+}
+.fa-linkedin-square{
+	font-size: 30px !important;
+	color: #D94255;
+}
+.fa-github-square{
+	font-size: 30px !important;
+	color: #D94255;
+}
+/*t Mediun */
+@media (max-width: 1100px) {
+	.container{
+		width: 95%;
+	}
+	.foto-contacto{
+		width: 40%;
+	}
+	.info-contacto{
+		width: 50%;
+	}
+	.info-contacto{
+	margin-right: 0px;
+	}
+	.main-form{
+		width: 90%;
+		margin: auto;
+	}
+	.form-right{
+		float: left;
+		width: 45%;
+	}
+	.form-left{
+		float: left;
+		width: 45%;
+		margin-left: 20px;
+
+}
+@media (max-width: 1000px) {
+	.titulo-section{
+		margin-left: 20px;
+	}
+	.estudios-left{
+		padding-left: 20px;
+		width: 50%;
+	}
+	.estudios-middle{
+		width: 50%;
+	}
+	.otros-intereses{
+		padding-left: 20px;
+		width: 80%;
+	}
+	.titulo-section{
+		padding-left: 0px;
+	}
+	.titulo-section-exp{
+		margin-left: 20px;
+	}
+	.experiencia-1, .experiencia-2, .experiencia-3, .experiencia-4{
+		float: left;
+		width: 45%;
+		margin-left: 20px;
+	}
+	.experiencia-5, .experiencia-6, .experiencia-7, .experiencia-8{
+		float: left;
+		width: 45%;
+		margin-left: 20px;
+	}
+	.main-form{
+		width: 90%;
+		margin: auto;
+	}
+	.form-right{
+		float: left;
+		width: 45%;
+	}
+	.form-left{
+		float: left;
+		width: 45%;
+		margin-left: 20px;
+	}
+@media (max-width: 800px){
+	.foto-contacto{
+		float: none;
+		margin: auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.info-contacto{
+		padding-top: 20px;
+		width: 100%;
+		display: table;
+		float: none;
+	}
+	.about-me{
+		width: 70%;
+		margin: auto;
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 30px;
+	}
+	.habilidades-soft{
+		width: 33.3%;
+	}
+	.info-contacto h1,
+	.ocupacion {
+		text-align: center;
+	}
+}
+@media (max-width: 600px){
+	.habilidades-soft{
+		width: 50%;
+	}
+	.foto-contacto{
+		width: 100%;
+	}
